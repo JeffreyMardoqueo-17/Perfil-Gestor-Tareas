@@ -4,34 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil</title>
+    <title>MENU</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="m-auto flex size-full shadow-md max-w-screen-2xl items-center justify-between px-3 py-4 2xl:px-12">
-        <div class="flex items-center justify-start gap-2 min-[375px]:gap-4 lg:flex-1">
+    <div class="m-auto flex size-full max-w-screen-2xl items-center justify-between px-3 py-4 2xl:px-12">
+        <div class="flex flex-1 items-center justify-start gap-2 min-[3000]:gap-4 lg:gap-0">
             <button type="button"
-                class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg align-middle font-semibold transition-all duration-300 ease-in-out disabled:cursor-not-allowed stroke-blue-700 text-blue-600 h-6 min-w-[24px] gap-1.5 text-xs p-0 disabled:stroke-slate-400 disabled:text-slate-400 hover:stroke-blue-950 hover:text-blue-950"
+                class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg align-middle font-semibold transition-all duration-300 ease-in-out disabled:cursor-not-allowed stroke-blue-700 text-blue-600 h-6 min-w-[24px] gap-1.5 text-xs p-0 disabled:stroke-slate-400 disabled:text-slate-400 hover:stroke-blue-950 hover:text-blue-950 lg:hidden"
                 aria-label="Menu">
                 <span>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                         stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                        class="size-6 stroke-blue-700">
+                        class="stroke-inherit">
                         <path d="M4 6H20"></path>
                         <path d="M4 12H20"></path>
                         <path d="M4 18H20"></path>
                     </svg>
                 </span>
             </button>
-        </div>
-        <div class="md:flex">
-            <svg width="149" height="42" viewBox="0 0 149 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="min-[360]" width="149" height="42" viewBox="0 0 149 42" fill="none"  xmlns="http://www.w3.org/2000/svg">
                 <g filter="url(#filter0_dd_3302_6976)">
                     <path
                         d="M6.02873 16.4468C4.90829 12.2653 7.3898 7.96719 11.5713 6.84676L29.5532 2.02852C33.7348 0.908086 38.0328 3.38959 39.1533 7.57112L43.9715 25.553C45.092 29.7345 42.6104 34.0326 38.4289 35.1531L20.447 39.9713C16.2655 41.0917 11.9674 38.6102 10.847 34.4287L6.02873 16.4468Z"
-                        fill="url(#linear-gradient-id-6368)"></path>
+                        fill="url(#linear-gradient-id-7860)"></path>
                 </g>
                 <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M30.2295 4.5523L12.2476 9.37053C9.45988 10.1175 7.80555 12.9829 8.55251 15.7706L13.3707 33.7525C14.1177 36.5402 16.9831 38.1945 19.7708 37.4475L37.7527 32.6293C40.5404 31.8823 42.1947 29.0169 41.4477 26.2293L36.6295 8.24736C35.8825 5.45968 33.0172 3.80534 30.2295 4.5523ZM11.5713 6.84676C7.3898 7.96719 4.90829 12.2653 6.02873 16.4468L10.847 34.4287C11.9674 38.6102 16.2655 41.0917 20.447 39.9713L38.4289 35.1531C42.6104 34.0326 45.092 29.7345 43.9715 25.553L39.1533 7.57112C38.0328 3.38959 33.7348 0.908085 29.5532 2.02852L11.5713 6.84676Z"
@@ -95,7 +92,7 @@
                         <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_3302_6976" result="shape">
                         </feBlend>
                     </filter>
-                    <linearGradient id="linear-gradient-id-6368" x1="35.517" y1="32.8232" x2="27.6785" y2="4.89887"
+                    <linearGradient id="linear-gradient-id-7860" x1="35.517" y1="32.8232" x2="27.6785" y2="4.89887"
                         gradientUnits="userSpaceOnUse">
                         <stop stop-color="#2050D9"></stop>
                         <stop offset="1" stop-color="#6FA1F3"></stop>
@@ -103,12 +100,12 @@
                 </defs>
             </svg>
         </div>
-        <div class="hidden md:flex md:justify-end lg:flex-1">
+        <div class="flex flex-1 items-center justify-end gap-4">
             <div
-                class="relative box-content flex items-center justify-center overflow-hidden rounded-full size-1 border-white shadow-md border-2 w-14">
+                class="relative box-content flex items-center justify-center overflow-hidden rounded-full size-8 border-white shadow-md border-2 w-12">
                 <img src="./img//FOOTOO.png" alt="" class="aspect-square">
             </div>
-            <span class="hidden text-sm font-semibold md:inline">Perfil</span>
+            <span class="hidden text-sm font-semibold md:inline">User</span>
             <button type="button"
                 class="group items-center justify-center whitespace-nowrap rounded-lg align-middle font-semibold transition-all duration-300 ease-in-out disabled:cursor-not-allowed stroke-blue-700 text-blue-600 h-6 min-w-[24px] gap-1.5 text-xs p-0 disabled:stroke-slate-400 disabled:text-slate-400 hover:stroke-blue-950 hover:text-blue-950 hidden md:inline-flex"
                 aria-label="Search">
@@ -120,46 +117,6 @@
                     </svg>
                 </span>
             </button>
-        </div>
-    </div>
-    <div class="container mx-auto p-4">
-        <div class="grid grid-cols-2 gap-4">
-            <!-- LADO IZQUIERDO DEL PERFIL donde estara la imagen y el nombre -->
-
-            <div class="col-span-1">
-                <div class="flex flex-col items-center">
-                    <div class="w-80 h-80 bg-cover bg-center bg-no-repeat rounded-full overflow-hidden flex-shrink-0 mb-4  shadow-md border-2 border-purple-900"  style="background-image: url('./img/LadoDerecho.svg')">
-                        <img src="./img//FOOTOO.png" alt="Imagen de perfil" class="w-full h-full object-cover">
-                    </div>
-                    <h1 class="text-4xl font-bold text-light-900x">Jeff JJ</h1>
-                </div>
-            </div>
-
-            <!-- LADO DERECHO, DONDE ESTARAN LOS DATOS DEL PERFIL -->
-            <div class="col-span-1">
-                <!-- Datos del usuario -->
-                <div class=" bg-white shadow-md rounded-lg p-6">
-                    <h2 class="text-2xl font-semibold mb-4 text-purple-900 ">Información de Usuario</h2>
-                    <hr class="my-4">
-                    <p class="my-2"><strong>Nombre:</strong> Jeffrey Mardoqueo</p>
-                    <p class="my-2"><strong>Apellido:</strong> Jimenes</p>
-                    <p class="my-2"><strong>Correo:</strong> jefrey20068f</p>
-                    <p class="my-2"><strong>Teléfono:</strong> 63443434</p>
-                    <p class="my-2"><strong>Cargo:</strong> Administrador</p>
-                    <p class="my-2"><strong>Contraseña:</strong> ********</p>
-                    <hr class="my-4">
-                </div>
-                <!-- Botones de acciones -->
-                <div class="mt-4 flex justify-center">
-                    <button
-                        class="bg-purple-500 text-white border-2 border-purple-900  px-4 py-2 rounded-lg shadow-md mr-2 editar">Editar
-                        perfil</button>
-                    <button
-                        class="bg-red-600 text-white border-2 border-red-900 px-4 py-2 rounded-lg shadow-md eliminar">Eliminar
-                        cuenta</button>
-                </div>
-            </div>
-
         </div>
     </div>
 </body>
