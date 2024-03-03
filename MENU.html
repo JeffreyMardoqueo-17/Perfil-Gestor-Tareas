@@ -193,10 +193,15 @@
 <script>
 document.addEventListener('DOMContentLoaded', function () {
     const menuButton = document.querySelector('[aria-label="Menu"]');
+    const closeButton = document.querySelector('[data-drawer-hide="drawer-navigation"]');
     const sidebar = document.getElementById('drawer-navigation');
 
     menuButton.addEventListener('click', () => {
         sidebar.style.transform = 'translateX(0)';
+    });
+
+    closeButton.addEventListener('click', () => {
+        sidebar.style.transform = 'translateX(-100%)';
     });
 
     document.addEventListener('click', (event) => {
@@ -206,10 +211,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-    const closeButton = document.querySelector('[data-drawer-hide="drawer-navigation"]');
-    closeButton.addEventListener('click', () => {
-        sidebar.style.transform = 'translateX(-100%)';
-    });
 
     //para los selecctores del perfil y header 
     document.addEventListener('DOMContentLoaded', function () {
