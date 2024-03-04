@@ -1,0 +1,26 @@
+/* Cambia el fondo del botón al modo oscuro */
+input[type="checkbox"]:checked + .slider {
+    background-color: rgb(30, 0, 74);
+}
+
+/* Mueve el círculo al modo oscuro */
+input[type="checkbox"]:checked + .slider .circle {
+    transform: translateX(130%);
+    background-color: white;
+}
+
+/* Cambia el fondo del botón al modo claro */
+input[type="checkbox"]:not(:checked) + .slider {
+    background-color: #ffff;
+    border: 1px solid purple;
+}
+
+/* Mueve el círculo al modo claro */
+input[type="checkbox"]:not(:checked) + .slider .circle {
+    transform: translateX(-10%);
+    background-color: rgb(255, 255, 165);
+}
+.circle {
+    border-radius: 50%; /* Hace que el contenedor sea un círculo */
+    background-color: transparent; /* Elimina el color de fondo */
+}
