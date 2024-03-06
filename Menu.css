@@ -1,24 +1,27 @@
 /* Cambia el fondo del botón al modo oscuro */
 input[type="checkbox"]:checked + .slider {
-    background-color: rgb(30, 0, 74);
+    background-color:#1d004f;
+    border: 1px solid #7C3AED;
 }
 
 /* Mueve el círculo al modo oscuro */
 input[type="checkbox"]:checked + .slider .circle {
-    transform: translateX(130%);
-    background-color: white;
+    transform: translateX(120%);
+    background-color:transparent;
+    color: #ebe0ff;
 }
 
 /* Cambia el fondo del botón al modo claro */
 input[type="checkbox"]:not(:checked) + .slider {
-    background-color: #ffff;
-    border: 1px solid purple;
+    background-color: #fbefff;
+    border: 1px solid #7C3AED;
 }
 
 /* Mueve el círculo al modo claro */
 input[type="checkbox"]:not(:checked) + .slider .circle {
     transform: translateX(-10%);
-    background-color: rgb(255, 255, 165);
+    background: #fffabd;
+    color: rgb(255, 214, 65);
 }
 .circle {
     border-radius: 50%; /* Hace que el contenedor sea un círculo */
